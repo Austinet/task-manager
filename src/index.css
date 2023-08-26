@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", serif;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --dark-blue: rgb(21, 55, 83);
+  --red: rgb(218, 34, 34);
+}

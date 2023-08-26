@@ -1,0 +1,60 @@
+#task-manager {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  border: 2px solid var(--black);
+  margin: 1rem auto;
+  width: 500px;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.3rem;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: 0.7rem 1.3rem;
+  border: none;
+  border-radius: 3px;
+  color: var(--white);
+}
+
+.header button.dark-bg{
+  background-color: var(--dark-blue);
+}
+
+.header button.red-bg {
+  background-color: var(--red);
+}
+
+footer {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+footer a {
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+
+@media(max-width: 500px) {
+  .container {
+      width: 95%;
+      padding: 1.5rem;
+  }
+}
