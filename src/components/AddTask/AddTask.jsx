@@ -30,6 +30,7 @@ const AddTask = ({saveTask}) => {
            <input 
               type="text" 
               id="name"
+              className='input-box'
               placeholder="Add Task"
               value={task.name} 
               onChange={(e)=> setTask({...task, name: e.target.value})}
@@ -40,7 +41,8 @@ const AddTask = ({saveTask}) => {
            <label htmlFor="day-time">Due Day & Time</label>
            <input 
              type="datetime-local"  
-             id="dayTime" 
+             id="dateTime" 
+             className='input-box'
              placeholder="Add Day & Time" 
              value={task.dateTime}
              onChange={(e)=> setTask({...task, dateTime: e.target.value})} 

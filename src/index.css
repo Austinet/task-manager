@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", serif;
+  font-family: "Inter", "Arial", serif;
 }
 
 :root {
@@ -10,4 +12,5 @@
   --white: #fff;
   --dark-blue: rgb(21, 55, 83);
   --red: rgb(218, 34, 34);
+  --green: rgb(0, 155, 0);
 }

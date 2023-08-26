@@ -1,34 +1,33 @@
 form button {
-    background-color: var(--dark-blue);
-    width: 100%;
-    margin: 1rem 0;
-  }
+  background-color: var(--dark-blue);
+  width: 100%;
+  margin: 1rem 0;
+}
   
-  .form-control {
-    margin-bottom: 1.5rem;
-  }
+.form-control {
+  margin-bottom: 1.5rem;
+}
   
-  .form-control-checkbox {
-    display: flex;
-  }
+.form-control-checkbox {
+  display: flex;
+}
   
-  label {
-    font-size: 1.1rem;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
   
-  input[type="text"],
-  input[type="datetime-local"] {
-    width: 100%;
-    height: 40px;
-    padding: 1rem;
-    font-size: 1.1rem;
-    outline: none;
-  }
+.input-box{
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  outline: none;
+}
   
-  input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    margin: 0 0 0.4rem 2rem;
-  }
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0.4rem 2rem;
+}
