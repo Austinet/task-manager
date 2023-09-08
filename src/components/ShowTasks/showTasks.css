@@ -30,7 +30,7 @@
 }
   
 .green-border {
-  border-left: 4px solid var(--green);
+  border-left: 6px solid var(--green);
 }
   
 .no-task {

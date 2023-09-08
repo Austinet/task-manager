@@ -12,5 +12,6 @@
   --white: #fff;
   --dark-blue: rgb(21, 55, 83);
   --red: rgb(218, 34, 34);
-  --green: rgb(0, 155, 0);
+  --green: rgb(91, 212, 91);
+  --shadow: rgba(0, 0, 0, 0.5);
 }

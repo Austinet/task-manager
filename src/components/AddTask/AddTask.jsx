@@ -2,7 +2,7 @@ import { useState } from 'react'
 import PropTypes from 'prop-types'
 import './addTask.css'
 
-const AddTask = ({saveTask}) => {
+const AddTask = ({dispatch}) => {
     const resetTask = {
         name: "",
         dateTime: "",
@@ -18,7 +18,7 @@ const AddTask = ({saveTask}) => {
         } else if (!task.dateTime.trim()) {
             alert("Enter date and time")
         } else {
-            saveTask(task)
+            dispatch({type: "ADD_TASK", payload: {...task, id: new Date().getTime().toString()}})
             setTask(resetTask)
         }     
     }
@@ -64,6 +64,7 @@ const AddTask = ({saveTask}) => {
   }
   
   AddTask.propTypes = {
-    saveTask: PropTypes.func
+    dispatch: PropTypes.func
   }
+  
   export default AddTask
